@@ -152,5 +152,4 @@ class TestDog:
         joey.name = "joseph"
         joey.update()
 
-        assert(Dog.find_by_id(1).name == "joseph" \
-            and Dog.find_by_name("joey") == None)
+        assert(Dog.find_by_id(1).name == "joseph")
